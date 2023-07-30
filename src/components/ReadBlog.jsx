@@ -28,7 +28,7 @@ export default function ReadBlog() {
                         <div key={blog.id} className="bg-white rounded-lg shadow-md p-6">
                             <h2 className="text-xl font-bold text-gray-900 mb-4">{blog.title}</h2>
                             <p className="text-gray-700">{blog.content}</p>
-                            <img className="w-56 h-56 mx-auto mt-4" src={`https://caterwauling-nickel-apple.glitch.me/images/${blog.image}`} alt="blog" />
+                            <img className="w-56 h-56 mx-auto mt-4" src={`https://suave-vaulted-milkshake.glitch.me/images/${blog.image}`} alt="blog" />
                         </div>
                     ))}
                 </div>
