@@ -30,7 +30,7 @@ export default function CreateBlog() {
       <div className="flex justify-start">
         <Link to="/" className="bg-transparent bg-gray-700 font-semibold hover:drop-shadow-lg drop-shadow p-8">← Go back</Link>
       </div>
-      <form action='https://suave-vaulted-milkshake.glitch.me/createBlog' method='post' encType='multipart/form-data' className="bg-transparent bg-gray-700 font-semibold hover:drop-shadow-lg drop-shadow p-8 mx-60">
+      <form action='https://lace-balanced-macaw.glitch.me/createBlog' method='post' encType='multipart/form-data' className="bg-transparent bg-gray-700 font-semibold hover:drop-shadow-lg drop-shadow p-8 mx-60">
         <h1 className="my-5 text-4xl tracking-tight font-extrabold text-center text-gray-900">Create a blog post</h1>
         <p className="text-center text-red-600">Fill out the form below to create a blog post.</p>
         <div className="container h-screen mx-auto p-4">

@@ -7,7 +7,7 @@ export default function ReadBlog() {
 
     useEffect(() => {
         async function fetchData() {
-            const response = await fetch('https://caterwauling-nickel-apple.glitch.me/readBlog');
+            const response = await fetch('https://lace-balanced-macaw.glitch.me/readBlog');
             const data = await response.json();
             setBlogs(data);
         }
@@ -28,7 +28,7 @@ export default function ReadBlog() {
                         <div key={blog.id} className="bg-white rounded-lg shadow-md p-6">
                             <h2 className="text-xl font-bold text-gray-900 mb-4">{blog.title}</h2>
                             <p className="text-gray-700">{blog.content}</p>
-                            <img className="w-56 h-56 mx-auto mt-4" src={`https://suave-vaulted-milkshake.glitch.me/images/${blog.image}`} alt="blog" />
+                            <img className="w-56 h-56 mx-auto mt-4" src={`https://lace-balanced-macaw.glitch.me/images/${blog.image}`} alt="blog" />
                         </div>
                     ))}
                 </div>
