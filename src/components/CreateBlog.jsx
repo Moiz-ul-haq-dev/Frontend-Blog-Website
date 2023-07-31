@@ -23,7 +23,7 @@ export default function CreateBlog() {
     const newBlog = { title, content, image };
 
     alert('Blog saved successfully!');
-    window.location.href = '/';
+    // window.location.href = '/';
   };
 
   return (
